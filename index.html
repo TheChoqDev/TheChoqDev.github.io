@@ -1,49 +1,64 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rémi J. Choquette</title>
-    <!--Bootstrap Imports-->
-    <link rel="bootstrap" href="lib/css/bootstrap.css"/>
-    <link rel="bootstrap" href="lib/css/bootstrap-grid.css"/>
-    <link rel="bootstrap" href="lib/css/bootstrap-reboot.css"/>
-
-    <!--Google Lato Font-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i" rel="stylesheet">
-
-    <!--Local CSS-->
-    <link href="lib/main.css" rel="stylesheet">
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link href="lib/font-awesome.min.css">
-
+    <title>Aerial by HTML5 UP</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
 </head>
-<body>
-<!--To be removed-->
+<body class="loading">
+<div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
 
-<div class="container-fluid">
-    <h1 class="display-1" style="color: red;">Warning, this page is currently under construction!</h1>
+        <!-- Header -->
+        <header id="header">
+            <h1>R&eacute;mi Jonathan Choquette</h1>
+            <p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>
+            <nav>
+                <ul>
+                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+                    <li><a href="http://github.com/TheChoqDev" target="_blank" class="icon fa-github"><span
+                            class="label">Github</span></a></li>
+                    <li><a href="mailto:remichoq@hotmail.com?subject=Requesting Information" class="icon fa-envelope-o">
+                        <span class="label">Email</span></a></li>
+                </ul>
+            </nav>
+        </header>
 
-</div>
+        <!-- Footer -->
+        <footer id="footer">
+            <span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+        </footer>
 
-<!--Banner-->
-<header>
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-3">Rémi J. Choquette</h1>
-            <p class="lead">Hello and Welcome <i class="fa fa-smile-o"></i><br /> Select your destination from the links bellow!</p>
-        </div>
     </div>
-</header>
-
-<div class="container">
-    <a href="FinalProjectJavaScript/index.html">My JQuery Final Project</a>
 </div>
-<iframe src="https://calendar.google.com/calendar/embed?src=remichoq%40gmail.com&ctz=America/Toronto" style="border: 0"
-        width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-
-<script rel="bootstrap" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script>
+    window.onload = function () {
+        document.body.className = '';
+    }
+    window.ontouchmove = function () {
+        return false;
+    }
+    window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+    }
+</script>
 </body>
 </html>
