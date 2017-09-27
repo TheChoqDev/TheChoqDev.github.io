@@ -1,0 +1,49 @@
+{
+  "mowers": [
+    {
+      "name":"ROBOMOWER® 105",
+      "area":"600 m²",
+      "batteryType":"Li-ion",
+      "chargeTime":"50 min",
+      "soundLevel":"58 dB(A)",
+      "price":"1299.00",
+      "image":"images/Mowers/M105.png"
+    },
+    {
+      "name":"ROBOMOWER® 310",
+      "area":"1000 m²",
+      "batteryType":"Li-ion",
+      "chargeTime":"60 min",
+      "soundLevel":"58 dB(A)",
+      "price":"1749.00",
+      "image":"images/Mowers/M310.png"
+    },
+    {
+      "name":"ROBOMOWER® 315",
+      "area":"1500 m²",
+      "batteryType":"Li-ion",
+      "chargeTime":"60 min",
+      "soundLevel":"58 dB(A)",
+      "price":"1999.00",
+      "image":"images/Mowers/M315.png"
+    },
+    {
+      "name":"ROBOMOWER® 420",
+      "area":"2200 m²",
+      "batteryType":"Li-ion",
+      "chargeTime":"55 min",
+      "soundLevel":"57 dB(A)",
+      "price":"2499.00",
+      "image":"images/Mowers/M420.png"
+    },
+    {
+      "name":"ROBOMOWER® 440",
+      "area":"5000 m²",
+      "batteryType":"Li-ion",
+      "chargeTime":"75 min",
+      "soundLevel":"58 dB(A)",
+      "price":"4199.00",
+      "image":"images/Mowers/M440.png"
+    }
+  ]
+}

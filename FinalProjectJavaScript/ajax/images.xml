@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carousel>
+  <image>
+    <title lang="en">Mower 1</title>
+	<picture>images/Mowers/M105.png</picture>
+  </image>
+  <image>
+    <title lang="en">Mower 2</title>
+	<picture>images/Mowers/M310.png</picture>
+  </image>
+  <image>
+    <title lang="en">Mower 3</title>
+	<picture>images/Mowers/M315.png</picture>
+  </image>
+  <image>
+    <title lang="en">Mower 4</title>
+	<picture>images/Mowers/M420.png</picture>
+  </image>
+  <image>
+    <title lang="en">Mower 5</title>
+	<picture>images/Mowers/M440.png</picture>
+  </image>
+
+</carousel>

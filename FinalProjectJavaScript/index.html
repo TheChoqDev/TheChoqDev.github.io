@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RoboMower | Home</title>
+
+    <!--###############################Bootstrap###############################-->
+    <!--Alpha compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="lib/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="lib/bootstrap-theme.min.css">
+
+    <!--###############################Font Awesome###############################-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="lib/font-awesome.min.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i" rel="stylesheet">
+
+    <!--Our class-->
+    <link rel="stylesheet" href="stylesheet.css"/>
+</head>
+<body>
+<nav class="navbar navbar-toggleable-sm navbar-light bg-faded navbar-fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Robo Mower</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#aboutus" id="aboutusButton">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#models" id="modelsButton">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#specs" id="specsButton">Specifications</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#purchase" id="purchaseButton">Purchase</a>
+            </li>
+        </ul>
+    </div>
+
+</nav>
+
+<header>
+    <div class="container">
+        <div class="bg"></div>
+        <div class="jumbotron">
+            <h1>Robo Mower</h1>
+            <p>The simple solution for people who need more time</p>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div id="aboutus">
+        <div class="container-fluid padding-bottom96 features-vh">
+            <div class="container">
+                <div class="row text-center cente">
+                    <div class="col-md-12 text-center padding-top96" style="visibility: visible;">
+                        <h2>We are ROBOMOWER</h2>
+                        <div class="green-horizontal-separator padding-top24 margin-bottom24">&nbsp;</div>
+                        <p class="text-block padding-bottom48 padding-top24">We are a looking to give MORE time to the
+                            people who lack TIME</p>
+                    </div>
+                    <div class="col-md-4 margin-top24">
+                        <div class="padding-top36 padding-bottom36 text-left overflow-hidden feature-element">
+                            <div class="one-about-elem">
+                                <h3 class="inline-disp one-about-elem-title">RESPONSIVE <i
+                                        class="fa fa-gears green"></i></h3>
+                            </div>
+                            <div class="text-block padding-top24 fw text-justify">We make sure to give you 110% of our
+                                attention and give you a perfect, on time response when you need something done.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 margin-top24">
+                        <div class="padding-top36 padding-bottom36 text-left feature-element">
+                            <div class="one-about-elem">
+                                <h3 class="inline-disp one-about-elem-title">OPEN SOURCE <i
+                                        class="fa fa-code green"></i></h3>
+                            </div>
+                            <div class="text-block padding-top24 fw text-justify">Our Open source software allows anyone
+                                to modify their mower to their liking, thus creating an endless amount off posibilities
+                                for each user's experience.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 margin-top24">
+                        <div class="padding-top36 padding-bottom36 text-left feature-element">
+                            <div class="one-about-elem">
+                                <h3 class="inline-disp one-about-elem-title text-justify">GPS GUIDED <i
+                                        class="fa fa-rss green"></i></h3>
+                            </div>
+                            <div class="text-block padding-top24 fw">Our Mower work with ease using the latest firmware
+                                in robot guided technologies.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid greenBG padding-top96 padding-bottom96" id="models">
+        <div class="row">
+            <div class="col-sm-12" id="content"></div>
+        </div>
+    </div>
+    <div class="container padding-top96" id="specs">
+        <div class="row">
+            <div class="col-sm-2"><h2>Specifications</h2></div>
+            <div class="col-md-12" id="tableContent"></div>
+        </div>
+    </div>
+    <div class="container-fluid greenBG padding-bottom96">
+        <div class="container">
+            <form>
+                <h2 id="purchase" class="padding-top96">Purchase</h2>
+                <div class="form-group">
+                    <label for="modelSelect">Select Model</label>
+                    <select class="form-control" id="modelSelect">
+                        <option selected disabled>Select a Model</option>
+                        <option>ROBOMOWER® 105</option>
+                        <option>ROBOMOWER® 310</option>
+                        <option>ROBOMOWER® 315</option>
+                        <option>ROBOMOWER® 420</option>
+                        <option>ROBOMOWER® 440</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                           placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
+                    </small>
+                </div>
+                <div id="tableContentPage"></div>
+                <div class="form-group row">
+                    <label for="tel-input" class="col-2 col-form-label">Telephone</label>
+                    <div class="col-4">
+                        <input class="form-control" type="tel" value="1-(450) 672-7360" id="tel-input">
+                    </div>
+                    <label for="color-input" class="col-2 col-form-label">Mower Color</label>
+                    <div class="col-4">
+                        <input class="form-control" type="color" value="#563d7c" id="color-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="name-input" class="col-2 col-form-label">Name</label>
+                    <div class="col-4">
+                        <input class="form-control" type="text" value="R&eacute;mi J. Choquette" id="name-input">
+                    </div>
+                    <label for="street-input" class="col-2 col-form-label">Address</label>
+                    <div class="col-4">
+                        <input class="form-control" type="text" value="20, Nic Nac Street" id="street-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="exampleSelect2" class="col-2 col-form-label">Province</label>
+                    <div class="col-4">
+                        <select class="form-control" id="exampleSelect2">
+                            <option>Qu&eacute;bec</option>
+                            <option>Ontario</option>
+                            <option>Nova Scotia</option>
+                            <option>New Brunswick</option>
+                            <option>Manitoba</option>
+                            <option>British Columbia</option>
+                            <option>Prince Edward Island</option>
+                            <option>Saskatchewan</option>
+                            <option>Alberta</option>
+                            <option>Newfoundland and Labrador</option>
+                        </select>
+                    </div>
+                    <label for="code-input" class="col-2 col-form-label">Postal Code</label>
+                    <div class="col-4">
+                        <input class="form-control" type="text" value="H4C 3L6" id="code-input">
+                    </div>
+                </div>
+            </form>
+
+
+            <button type="submit" class="btn btn-primary">Place Order</button>
+        </div>
+    </div>
+</main>
+<footer  style="background-color:white;">
+    <div class="container padding-bottom48 padding-top96">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Contact Us</h4>
+                <div class="green-horizontal-separator padding-top24 margin-bottom24">&nbsp;</div>
+                <p class="margin-top24">Feel free to email us at <a href="mailto:Official@RoboMowers.qc.ca">Official@RoboMowers.qc.ca</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4>Feedback</h4>
+                <div class="green-horizontal-separator padding-top24 margin-bottom24">&nbsp;</div>
+                <textarea class="form-control margin-top24" id="exampleTextarea" rows="3"></textarea>
+                <button type="submit" class="btn btn-primary margin-top24">Send Feedback</button>
+            </div>
+            <div class="col-md-4">
+                <h4>Social Media Links</h4>
+                <div class="green-horizontal-separator padding-top24 margin-bottom24">&nbsp;</div>
+                <p>
+                <ul style="list-style-type: none;">
+                    <li><i class="fa fa-facebook-square green" aria-hidden="true"></i> <a href="facebook.com">Facebook</a></li>
+                    <li><i class="fa fa-twitter green" aria-hidden="true"></i> <a href="Twitter.com">Twitter</a></li>
+                    <li><i class="fa fa-youtube green" aria-hidden="true"></i> <a href="youtube.com">Youtube</a></li>
+                </ul>
+                </p>
+                <div class="small">All images have been stolen from Huqsvarna Automower</div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--########################Bootstrap & jQuery###############################-->
+<script src="lib/jquery-3.2.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="lib/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+<script src="lib/bootstrap.min.js"></script>
+<!--Our scripts-->
+<script src="script/discount.js"></script>
+<script>
+    var xhr = new XMLHttpRequest;
+    xhr.open("GET", "ajax/carousel.html", true);
+    xhr.send();
+    xhr.onload = function () {
+        document.getElementById('content').innerHTML = xhr.responseText;
+    }
+</script>
+<script>
+    $.ajax({
+        type: 'GET',
+        url: 'ajax/images.xml',
+        dataType: 'xml',
+        success: function (data) {
+            var i = 0;
+            $(data).find('image').each(function () {
+                var title = $(this).find('title').text();
+                var imageurl = $(this).find('picture').text();
+
+                $('#' + i).attr('alt', title);
+                $('#' + i).attr('src', imageurl);
+
+                i++;
+            });
+        }
+    });
+</script>
+<script>
+    $.ajax({
+        type: 'GET',
+        url: 'ajax/robomowers.json',
+        dataType: 'JSON',
+        success: function (data) {
+            $info = "<table class='table table-striped'>";
+            $.each(data.mowers, function (i, mowers) {
+                $info += '<tr><td><img src="' + mowers.image + '" /></td><td><ul style="list-style-type: none"><strong>' + mowers.name + '</strong><li><i class="fa fa-globe green"></i> ' + mowers.area + '</li><li><i class="fa fa-bolt green"></i> ' + mowers.batteryType + '</li><li><i class="fa fa-battery-full green"></i>  ' + mowers.chargeTime + '</li><li><i class="fa fa-volume-up green"></i> ' + mowers.soundLevel + '</li><li id="priceEl">$<span id="price">' + mowers.price + '</ul></li></tr>';
+            });
+            $info += '</table>';
+            $('#tableContent').html($info);
+        }
+    })
+</script>
+<script>
+    $('#modelSelect').on('change', kawaii);
+    function kawaii() {
+        $.ajax({
+            type: 'GET',
+            url: 'ajax/robomowers.json',
+            dataType: 'JSON',
+            success: function (data) {
+                $info = "<table class='table table-striped'>";
+                $.each(data.mowers, function (i, mowers) {
+                    if (mowers.name === $('#modelSelect').val()) {
+                        $info += '<tr><td><img src="' + mowers.image + '" /></td><td><ul style="list-style-type: none"><strong>' + mowers.name + '</strong><li><i class="fa fa-globe"></i> ' + mowers.area + '</li><li><i class="fa fa-bolt"></i> ' + mowers.batteryType + '</li><li><i class="fa fa-battery-full"></i>  ' + mowers.chargeTime + '</li><li><i class="fa fa-volume-up"></i> ' + mowers.soundLevel + '</li><li id="priceEl">$<span id="price">' + mowers.price + '</ul></li></tr>';
+                    }
+                });
+                $info += '</table>';
+                $('#tableContentPage').html($info);
+            }
+        })
+    }</script>
+<script>
+    /*Stolen code*/
+    function scrollToAnchor(aid) {
+        var aTag = $("a[name='" + aid + "']");
+        $('html,body').animate({scrollTop: aTag.offset().top}, 'slow');
+    }
+    $("#aboutusButton").click(function () {
+        scrollToAnchor('aboutus');
+    });
+</script>
+</body>
+
+</html>
